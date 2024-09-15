@@ -97,13 +97,13 @@ spec:
                   resources:
                     default:
                       limits:
-                        cpu: 1000m
-                        ephemeral-storage: 1Gi
-                        memory: 1Gi
+                        cpu: "2"
+                        ephemeral-storage: 8Gi
+                        memory: 6Gi
                       requests:
-                        cpu: 1000m
-                        ephemeral-storage: 1Gi
-                        memory: 1Gi
+                        cpu: "2"
+                        ephemeral-storage: 8Gi
+                        memory: 6Gi
                     description: Resources is the resources of the engine.
                     properties:
                       claims:
